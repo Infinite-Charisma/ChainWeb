@@ -1,0 +1,16 @@
+isChainweb: true
+verbose:
+  verbosity: false
+nodeChainId: 0
+chainwebHostAddress:
+  hostname: 127.0.0.1
+  port: 1789
+chainwebVersion: timedCPM-peterson
+scriptCommand:
+  tag: RunStandardContracts
+  contents:
+    tag: GaussianTD
+    contents:
+      mean: 1000000
+      var: 62500
+logHandle: stdout

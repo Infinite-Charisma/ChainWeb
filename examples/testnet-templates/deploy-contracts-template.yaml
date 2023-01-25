@@ -1,0 +1,13 @@
+isChainweb: true
+verbose:
+  verbosity: false
+batchSize: 1
+chainwebVersion: development
+hostAddresses:
+- hostname: us1.chainweb.com
+  port: 443
+scriptCommand:
+  tag: DeployContracts
+  contents: []
+nodeChainIds: []
+logHandle: stdout

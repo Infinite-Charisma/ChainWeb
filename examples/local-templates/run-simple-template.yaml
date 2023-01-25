@@ -1,0 +1,17 @@
+isChainweb: true
+verbose:
+  verbosity: false
+batchSize: 1
+chainwebVersion: timedCPM-peterson
+hostAddresses:
+- hostname: 127.0.0.1
+  port: 1789
+scriptCommand:
+  tag: RunSimpleExpressions
+  contents:
+    tag: GaussianTD
+    contents:
+      mean: 1000000
+      var: 62500
+nodeChainIds: []
+logHandle: stdout
